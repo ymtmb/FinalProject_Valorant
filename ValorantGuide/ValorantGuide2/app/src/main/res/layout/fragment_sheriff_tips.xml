@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/valorantColor"
+    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="100sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="2dp"
+                android:paddingRight="2dp"
+                android:text="The Sheriff is the most expensive sidearm in the game, costing 800 Credits. It comes with a small magazine and a high damage, as well as a high recoil. It is semi-automatic.\n\nThe sidearm is extremely useful for economy and pistol rounds, due to its relatively cheap cost and high damage per bullet, rivaling that of most pistols. It is 4 shots to the legs, 3 to the body and 1 to the head at 0-30 meters (2 to the head at 30-50 meters).\n\nThe main disadvantage of the Sheriff is in its long pullout time and high recoil. It has the most recoil out of any pistols, and it takes quite a bit of time for that recoil to fade."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

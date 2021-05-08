@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/valorantColor"
+    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="100sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="2dp"
+                android:paddingRight="2dp"
+                android:text="\nThe Guardian is a semi automatic rifle that sits at a moderate price of 2,700 compared to other rifles. The Guardian is unique for being the only semi automatic rifle, and having a 1.5x zoom, as well as the highest damage per bullet compared to any other rifles.
+
+\n\nThe Guardian, though being semi-automatic, can still fire decently fast at 6.5 rounds per second. The Guardian shines at one aspect, its damage per bullet. It is a 4 to the legs, 3 to the body and 1 to the head at any range.
+
+\n\nThe Rifle shines on the defensive side, as with its extreme damage per bullet and 1.5x zoom makes it a dangerous rifle to peek, especially since it's a guaranteed one tap to the head.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

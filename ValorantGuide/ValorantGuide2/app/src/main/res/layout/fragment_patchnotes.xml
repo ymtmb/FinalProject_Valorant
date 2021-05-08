@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/valorantColor"
+    tools:context=".ui.agents.AgentsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:background="#FFFFFF"
+            android:foreground="@drawable/patchnotes"
+            app:cardBackgroundColor="#FDE0E0">
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Version 2.05 (March 16, 2021):
+                \n- The Career: Act Rank tab now has a toggle which allows you to choose to enable or disable your Act Rank
+                \n- Minor fixes
+                \n- Agent Updates"
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Version 2.06 (March 30, 2021):
+                \n- Viper buffs
+                \n- Bucky Nerfs
+                \n- New game mode 'Esclation' is out and now playable
+                \n- Bug Fixes"
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Version 2.07 (April 13, 2021):
+                \n- Agent Updates for Astra, Raze, and Viper
+                \n- Yoru can no longer plant the Spike after using Gatecrash while his Dimensional Shift is active
+                \n- Bug fixes"
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Version 2.08 (April 4, 2021):
+                \n- Introducing new map Breeze
+                \n- Fixed a bug that was causing rank icons to disappear in Match History
+                \n- Reporter Feedback has been added into the game"
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_above="@+id/adViewBot"
+                android:background="@color/colorAccent"
+                app:layout_constraintBottom_toTopOf="@+id/adViewBot"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adViewBot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ads_bgdark"
+                app:adSize="SMART_BANNER"
+                app:adUnitId="@string/ad_unit_id"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+            </com.google.android.gms.ads.AdView>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
